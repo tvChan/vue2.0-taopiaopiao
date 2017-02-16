@@ -132,7 +132,7 @@ export default{
 		let detailStr = this.detailObj.detailStr
 		if (detailStr) {
 			this.requestData(`/movie/info/?name=${detailStr}`, (response) => {
-				let data = response.data
+				let data = response.data 
 				this.infoObj = data.data.data.returnValue
 				this.initSwiper()
 			})

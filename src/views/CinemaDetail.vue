@@ -84,7 +84,6 @@ export default{
 		selectDateTab (event) {
 			let num = +event.target.getAttribute('data-num')
 			this.selDateNum = num
-			console.log(num)
 		}
 	},
 	created () {
@@ -145,13 +144,14 @@ export default{
 }
 .cm-star {
 	display: inline-block;
-	margin: 0 0 0 -12px;
-	height: 12px;
+	margin: 3px 0 0 -29px;
+	height: 15px;
 	width: 73px;
 }
 .cm-star .score {
-	right: -20px;
-	top: 0px;
+	right: -24px;
+	font-size: 13px;
+	top: 1px;
 }
 .sel-date {
 	width: 100%;
